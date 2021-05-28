@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LEADERBOARD</string>
+    <string name="tab_text_1">Learning Leaders</string>
+    <string name="tab_text_2">Skill IQ Leaders</string>
+    <string name="tab_text_3">First Name</string>
+    <string name="tab_text_4">Last Name</string>
+    <string name="tab_text_5">Email Adress</string>
+    <string name="tab_text_6">Project on GITHUB (link)</string>
+    <string name="tab_text_7">Heading</string>
+    <string name="tab_text_8">Description</string>
+
+
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/GADs_value"
+        android:layout_width="238dp"
+        android:layout_height="201dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/bkgnd" />
+
+    <EditText
+        android:id="@+id/entry.1877115667"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="17dp"
+        android:autofillHints="First Name"
+        android:background="@drawable/rounded_corners"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+
+
+        android:text="@string/tab_text_3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:id="@+id/entry.2006916086"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="15dp"
+        android:autofillHints="Last Name"
+        android:background="@drawable/rounded_corners"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="@string/tab_text_4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:id="@+id/entry.1824927963"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entry.2006916086"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="13dp"
+        android:autofillHints="Email Adress"
+        android:background="@drawable/rounded_corners"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:text="@string/tab_text_5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:id="@+id/entry.284483984"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entry.1824927963"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="13dp"
+        android:autofillHints="Project on GITHUB (link)"
+        android:background="@drawable/rounded_corners"
+        android:ems="10"
+        android:inputType="textUri"
+        android:padding="10dp"
+        android:text="@string/tab_text_6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/submission"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_below="@id/entry.284483984"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="132dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:id="@+id/SubmitButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/ProjectSubmission"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_above="@id/entry.1877115667"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="123dp"
+        android:text="Project Submission"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFC107"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="500dp"
+        android:layout_height="2dp"
+        android:layout_alignBottom="@+id/ProjectSubmission"
+        android:layout_marginBottom="-6dp"
+        android:background="@drawable/gradient"
+        android:fadeScrollbars="false"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="20dp" />
+
+</RelativeLayout>
